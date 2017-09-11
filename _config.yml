@@ -1,12 +1,4 @@
 # ---------------------------------------------------------------
-# Theme Core Configuration Settings
-# ---------------------------------------------------------------
-
-# Set to true, if you want to fully override the default configuration.
-# Useful if you don't want to inherit the theme _config.yml configurations.
-override: false
-
-# ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
 
@@ -14,7 +6,7 @@ override: false
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Python,Go,Devops,algorithm"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -59,11 +51,11 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
+  # schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
@@ -77,10 +69,10 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Muse
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -92,8 +84,8 @@ scheme: Muse
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
+social:
+  GitHub: https://github.com/zhyq0826 || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -119,7 +111,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/avatar.gif
+avatar: /images/logo.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -202,10 +194,10 @@ post_wordcount:
   separated_meta: true
 
 # Wechat Subscriber
-#wechat_subscriber:
-  #enabled: true
-  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account
+wechat_subscriber:
+  enabled: true
+  qcode: /images/qrcode_for_gh_c28573fbafaa_344.jpg
+  description: 扫描关注 wecatch 的公众号
 
 # Reward
 #reward_comment: Donate comment here
@@ -317,8 +309,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: sanyuesha
   count: true
 
 # Hypercomments
@@ -361,7 +353,7 @@ valine:
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-#jiathis:
+jiathis: true
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
@@ -373,7 +365,7 @@ valine:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-56212296-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
