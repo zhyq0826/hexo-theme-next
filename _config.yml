@@ -310,7 +310,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: sanyuesha.com
+  shortname: sanyuesha-com
   count: true
 
 # Hypercomments
