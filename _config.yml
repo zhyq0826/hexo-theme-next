@@ -56,7 +56,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   我的书单: /my-readings/ || book
-  技术编年史: /my-skills/ || skill
+  技术编年史: /my-skills/ || book
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
