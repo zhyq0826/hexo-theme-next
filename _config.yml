@@ -690,3 +690,10 @@ images: images
 
 # Theme version
 version: 5.1.2
+
+
+utterances:
+  enable: true
+  repo: zhyq0826/zhyq0826.github.io
+  issue_term: title # pathname, url, title, og:title [ISSUE NUMBER] or [SPECIFIC TERM]
+  theme: github-light # github-dark
